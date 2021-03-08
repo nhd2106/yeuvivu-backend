@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bai-viets",
+      "handler": "bai-viet.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bai-viets/count",
+      "handler": "bai-viet.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bai-viets/:id",
+      "handler": "bai-viet.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/bai-viets",
+      "handler": "bai-viet.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bai-viets/:id",
+      "handler": "bai-viet.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bai-viets/:id",
+      "handler": "bai-viet.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

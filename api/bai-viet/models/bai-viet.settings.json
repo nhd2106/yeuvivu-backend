@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bai_viets",
+  "info": {
+    "name": "bai-viet",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "tieuDe": {
+      "type": "string"
+    },
+    "noiDung": {
+      "type": "richtext"
+    },
+    "anhGioiThieu": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "dia_diem": {
+      "model": "dia-diem",
+      "via": "bai_viet"
+    }
+  }
+}

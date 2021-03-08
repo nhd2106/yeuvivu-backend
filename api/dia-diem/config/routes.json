@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dia-diems",
+      "handler": "dia-diem.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dia-diems/count",
+      "handler": "dia-diem.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dia-diems/:id",
+      "handler": "dia-diem.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/dia-diems",
+      "handler": "dia-diem.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dia-diems/:id",
+      "handler": "dia-diem.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dia-diems/:id",
+      "handler": "dia-diem.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
