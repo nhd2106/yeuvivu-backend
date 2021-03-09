@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/the-loais",
+      "handler": "the-loai.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/the-loais/count",
+      "handler": "the-loai.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/the-loais/:id",
+      "handler": "the-loai.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/the-loais",
+      "handler": "the-loai.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/the-loais/:id",
+      "handler": "the-loai.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/the-loais/:id",
+      "handler": "the-loai.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

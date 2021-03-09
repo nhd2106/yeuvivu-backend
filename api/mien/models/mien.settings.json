@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "miens",
+  "info": {
+    "name": "mien"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "ten": {
+      "type": "string"
+    },
+    "bai_viets": {
+      "collection": "bai-viet",
+      "via": "mien"
+    }
+  }
+}

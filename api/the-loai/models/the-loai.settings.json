@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "the_loais",
+  "info": {
+    "name": "theLoai"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "diemDen": {
+      "type": "string"
+    },
+    "bai_viets": {
+      "collection": "bai-viet",
+      "via": "the_loai"
+    }
+  }
+}

@@ -31,6 +31,21 @@
     "dia_diem": {
       "model": "dia-diem",
       "via": "bai_viet"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "mien": {
+      "via": "bai_viets",
+      "model": "mien"
+    },
+    "the_loai": {
+      "via": "bai_viets",
+      "model": "the-loai"
+    },
+    "tags": {
+      "via": "bai_viet",
+      "collection": "tags"
     }
   }
 }
