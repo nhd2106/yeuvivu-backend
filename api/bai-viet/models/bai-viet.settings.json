@@ -36,16 +36,19 @@
       "type": "string"
     },
     "mien": {
-      "via": "bai_viets",
-      "model": "mien"
+      "model": "mien",
+      "via": "bai_viets"
     },
     "the_loai": {
-      "via": "bai_viets",
-      "model": "the-loai"
+      "model": "the-loai",
+      "via": "bai_viets"
     },
     "tags": {
-      "via": "bai_viet",
-      "collection": "tags"
+      "collection": "tags",
+      "via": "bai_viet"
+    },
+    "mota": {
+      "type": "string"
     }
   }
 }

@@ -15,8 +15,8 @@
       "type": "string"
     },
     "bai_viet": {
-      "model": "bai-viet",
-      "via": "tags"
+      "via": "tags",
+      "model": "bai-viet"
     }
   }
 }

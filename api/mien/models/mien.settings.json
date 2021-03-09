@@ -14,8 +14,8 @@
       "type": "string"
     },
     "bai_viets": {
-      "collection": "bai-viet",
-      "via": "mien"
+      "via": "mien",
+      "collection": "bai-viet"
     }
   }
 }
