@@ -14,9 +14,10 @@
     "tagName": {
       "type": "string"
     },
-    "bai_viet": {
+    "bai_viets": {
+      "collection": "bai-viet",
       "via": "tags",
-      "model": "bai-viet"
+      "dominant": true
     }
   }
 }

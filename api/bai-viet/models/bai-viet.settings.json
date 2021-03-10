@@ -28,10 +28,6 @@
       "plugin": "upload",
       "required": false
     },
-    "dia_diem": {
-      "model": "dia-diem",
-      "via": "bai_viet"
-    },
     "slug": {
       "type": "string"
     },
@@ -43,12 +39,16 @@
       "model": "the-loai",
       "via": "bai_viets"
     },
-    "tags": {
-      "collection": "tags",
-      "via": "bai_viet"
-    },
     "mota": {
       "type": "string"
+    },
+    "dia_diem": {
+      "via": "bai_viets",
+      "model": "dia-diem"
+    },
+    "tags": {
+      "via": "bai_viets",
+      "collection": "tags"
     }
   }
 }

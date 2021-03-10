@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "dia_diems",
   "info": {
-    "name": "diaDiem"
+    "name": "diaDiem",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -13,9 +14,9 @@
     "ten": {
       "type": "string"
     },
-    "bai_viet": {
-      "via": "dia_diem",
-      "model": "bai-viet"
+    "bai_viets": {
+      "collection": "bai-viet",
+      "via": "dia_diem"
     }
   }
 }
